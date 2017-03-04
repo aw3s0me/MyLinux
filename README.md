@@ -32,3 +32,9 @@ sudo apt-get install xsel
 xsel --clipboard < new-clipboard-contents.txt
 xsel --clipboard > current-clipboard-contents.txt
 ```
+
+###Unzip
+```
+sudo apt-get install unzip
+unzip file.zip -d destination_folder
+```

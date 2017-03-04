@@ -25,3 +25,10 @@ Save, exit and reload using:
 ```shell
 source /etc/environment
 ```
+
+###Copying to clipboard
+```shell
+sudo apt-get install xsel
+xsel --clipboard < new-clipboard-contents.txt
+xsel --clipboard > current-clipboard-contents.txt
+```

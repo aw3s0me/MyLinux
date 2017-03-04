@@ -19,3 +19,7 @@ service rabbitmq-server restart
 # To check the status:
 service rabbitmq-server status
 ```
+#Which wi-fi adapter is used
+```
+lspci | awk '/[Nn]et/ {print $1}' | xargs -i% lspci -ks %
+```

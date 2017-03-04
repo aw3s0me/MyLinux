@@ -21,3 +21,7 @@ Insert to this file to the end as: JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 ```shell
 sudo nano /etc/environment
 ```
+Save, exit and reload using:
+```shell
+source /etc/environment
+```

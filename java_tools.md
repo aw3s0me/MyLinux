@@ -2,3 +2,7 @@
 ```
 jps -m
 ```
+##Print just id and class name (more convenient and concise)
+```
+jps -lV
+```

@@ -40,8 +40,17 @@ sudo apt-get install unzip
 unzip file.zip -d destination_folder
 ```
 
-# Packages
-## Gradle
-http://howtoprogram.xyz/2016/09/06/install-gradle-ubuntu-16-04/
+### SDKMAN
+```
+sudo apt install unzip
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+```
+
+### Gradle (need to install SDKMAN first)
+```
+sdk install gradle 3.4.1
+```
 
 

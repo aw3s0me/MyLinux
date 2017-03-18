@@ -1,3 +1,8 @@
+# Good tuts
+https://spring.io/guides/gs/gradle/
+
+http://tutorials.jenkov.com/gradle/gradle-tutorial.html
+
 # Run build script
 ```
 gradle

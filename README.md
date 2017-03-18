@@ -1,14 +1,15 @@
 # MyLinux
 
-##Packages
-###Multi-tab terminal
+## Packages
+
+### Multi-tab terminal
 
 ```shell
 sudo apt-get install xdotool
 ```
 
 ctrl+shift+t - open new tab
-###JDK-JRE
+### JDK-JRE
 ```shell
 sudo apt-get install default-jre
 sudo apt-get install default-jdk
@@ -26,15 +27,21 @@ Save, exit and reload using:
 source /etc/environment
 ```
 
-###Copying to clipboard
+### Copying to clipboard
 ```shell
 sudo apt-get install xsel
 xsel --clipboard < new-clipboard-contents.txt
 xsel --clipboard > current-clipboard-contents.txt
 ```
 
-###Unzip
+### Unzip
 ```
 sudo apt-get install unzip
 unzip file.zip -d destination_folder
 ```
+
+# Packages
+## Gradle
+http://howtoprogram.xyz/2016/09/06/install-gradle-ubuntu-16-04/
+
+

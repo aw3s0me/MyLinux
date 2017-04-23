@@ -8,7 +8,21 @@ cat /proc/asound/devices
 ```
 
 # Restoring audio (when Dummy Output in pulse audio)
-## 1. Reinstall alsa and pulse
+## My variant
+Open this file
+```
+/etc/modprobe.d/alsa-base.conf
+```
+Add to the end
+```
+options snd-hda-intel model=auto
+```
+
+Info taken from: https://help.ubuntu.com/community/HdaIntelSoundHowto
+
+## Internet variant
+
+### 1. Reinstall alsa and pulse
 ```
 sudo update-grub
 sudo apt-get remove --purge alsa-base
@@ -20,11 +34,11 @@ sudo alsa force-reload
 
 AND Need to switch Configuration in pulseaudio to Analog Stereo Output
 
-## 2. Install Pulseaudio Equalizer
+### 2. Install Pulseaudio Equalizer
 ```
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install pulseaudio-equalizer
 ```
-## 3. Install alsa-oss
+### 3. Install alsa-oss
 use: http://www.opensound.com/download.cgi

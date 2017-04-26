@@ -43,6 +43,11 @@ And reboot. You're done.
 ```
 sudo dkms uninstall 8192cu
 ```
+Or specify version of driver:
+```
+sudo dkms uninstall 8192cu/1.10
+```
+
 And if you copied the modprobe blacklist
 ```
 sudo rm /etc/modprobe.d/rtl8192cu-fixes/blacklist-native-rtl8192.conf

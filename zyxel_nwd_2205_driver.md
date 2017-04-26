@@ -38,3 +38,12 @@ sudo cp ./rtl8192cu-fixes/blacklist-native-rtl8192.conf /etc/modprobe.d/
 ```
 
 And reboot. You're done.
+
+# Deinstallation
+```
+sudo dkms uninstall 8192cu
+```
+And if you copied the modprobe blacklist
+```
+sudo rm /etc/modprobe.d/rtl8192cu-fixes/blacklist-native-rtl8192.conf
+```

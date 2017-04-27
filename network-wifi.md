@@ -93,4 +93,10 @@ ifconfig eth0 -promisc #disable
 ```
 ifconfig eth0 hw ether <MAC>
 ```
-
+# Install drivers for realtek8821ae
+```
+git clone http://github.com/lwfinger/rtlwifi_new.git
+cd rtlwifi_new/
+make
+sudo make install
+```

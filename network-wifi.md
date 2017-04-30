@@ -1,3 +1,9 @@
+# Network Manager
+## Restart (when adapter is suddenly down)
+```
+sudo service network-manager restart
+```
+
 # Solving 17.04 Ubuntu error 
 Check `cat /etc/resolv.conf` for your DNS settings
 
